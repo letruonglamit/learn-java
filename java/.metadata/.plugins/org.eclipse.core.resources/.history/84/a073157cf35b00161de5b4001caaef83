@@ -1,0 +1,13 @@
+import javax.swing.*;
+import java.awt.*;
+public class GridLayout {
+
+	public static void main(String[] args) {
+		JFrame frame = new JFrame("Grid Layer");
+		frame.setVisible(true);
+		frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
+		frame.setSize(300,400);
+		JPanel panel = new JPanel();
+	}
+
+}

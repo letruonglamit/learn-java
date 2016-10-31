@@ -1,0 +1,11 @@
+import javax.swing.JOptionPane;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JOptionPane.showMessageDialog(null, "Welcom to java");
+		System.out.println(1-0.1-0.1);
+	}
+
+}

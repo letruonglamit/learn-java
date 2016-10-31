@@ -1,0 +1,15 @@
+import javax.swing.*;
+import java.awt.*;
+public class GridLayout extends JFrame {
+	public GridLayout(){
+		setTitle("Grid Layout");
+		
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setSize(700,500);
+	}
+	public static void main(String[] args) {
+		GridLayout layout = new GridLayout();
+		layout.setVisible(true);
+	}
+
+}

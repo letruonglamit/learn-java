@@ -1,0 +1,9 @@
+package edu.andrew.basic;
+
+public class TestBasic {
+	public static void main(String[] agrs){
+		Character ch = new Character('A');
+		if(ch.isLetter('A')) System.out.println("ch la chu cai");
+		else System.out.println("ch khong la chu cai");
+	}
+}
